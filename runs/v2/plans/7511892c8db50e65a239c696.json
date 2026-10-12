@@ -1,0 +1,161 @@
+{
+  "block": "A",
+  "repeat": 0,
+  "pairs": [
+    "luna_medium_to_deepseek"
+  ],
+  "topic_id": null,
+  "protocol": "cd0c014e5399",
+  "jobs": [
+    {
+      "id": "d0f93ddc0e6c40b386e2ded7",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "5ae5dde2d407e1bb2f726871",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "emotion:enthusiasm",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "4c144df8699add84449e4326",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "emotion:anger",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "563f68c469edb93048335caf",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "basis:authority",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "1dcbddbc15f47e451b09a626",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "basis:consensus",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "23401f0282eaa539ac164f5f",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "basis:identity",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "bb4f7365d86a13f195b22354",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "form:hypothetical",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "b6d2c7f6aec874b448174f02",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "form:storytelling",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "ddf5766a2976f914967e0287",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "form:reframing",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "7cb5db0f19b58f5997a8faa7",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "form:dichotomy",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "e902da74ca0a784206f7adec",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "response:active_listening",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "96bb578c54151fc4034f6c29",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "response:socratic",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "0a3161b0e9afd315f3e4c349",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "response:motivational",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "780567edcb2f8642873d1da8",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "response:decatastrophizing",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    },
+    {
+      "id": "0c4713c777e4b80d3744463d",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "ending:call_to_action",
+      "social": "base",
+      "repeat": 0,
+      "done": true,
+      "earlier_results": []
+    }
+  ]
+}

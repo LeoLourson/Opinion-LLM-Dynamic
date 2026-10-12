@@ -1,0 +1,21 @@
+{
+  "block": "M",
+  "repeat": 1,
+  "pairs": [
+    "luna_medium_to_deepseek"
+  ],
+  "topic_id": null,
+  "protocol": "cd0c014e5399",
+  "jobs": [
+    {
+      "id": "aa458a65277f94a41c34d185",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "block": "B",
+  "repeat": 1,
+  "pairs": [
+    "luna_medium_to_deepseek"
+  ],
+  "topic_id": null,
+  "protocol": "cd0c014e5399",
+  "jobs": [
+    {
+      "id": "aa458a65277f94a41c34d185",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "a194730bf957cb739af8cf75",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "ai_disclosure:on",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "2c8d0d7bf55d0d0711bbd20b",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "goal_disclosure:on",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "638cf59415ec4e641573dfaa",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "forbidden_list:on",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "db64d64b82d42acd6001ac48",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "role:expert",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "007e957bf8b784fdbbb0556f",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "role:friend",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    }
+  ]
+}

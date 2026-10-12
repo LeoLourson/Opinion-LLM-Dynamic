@@ -5,7 +5,7 @@
     "base_url": "https://api.deepseek.com",
     "key_env": "DEEPSEEK_API_KEY",
     "max_tokens": 4000,
-    "max_requests": 1000
+    "max_requests": 3000
   },
   "profiles": {
     "deepseek": {
@@ -20,6 +20,14 @@
       "model": "gpt-6-luna",
       "settings": {
         "reasoning_effort": "low"
+      }
+    },
+    "codex_luna_medium": {
+      "transport": "subagent",
+      "engine": "codex",
+      "model": "gpt-6-luna",
+      "settings": {
+        "reasoning_effort": "medium"
       }
     },
     "codex_b": {
@@ -46,6 +54,10 @@
   "model_pairs": {
     "codex_to_deepseek": {
       "attacker": "codex_a",
+      "target": "deepseek"
+    },
+    "luna_medium_to_deepseek": {
+      "attacker": "codex_luna_medium",
       "target": "deepseek"
     },
     "deepseek_to_codex": {

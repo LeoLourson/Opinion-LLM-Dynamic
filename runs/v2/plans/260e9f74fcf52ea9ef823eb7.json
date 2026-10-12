@@ -1,0 +1,161 @@
+{
+  "block": "A",
+  "repeat": 1,
+  "pairs": [
+    "luna_medium_to_deepseek"
+  ],
+  "topic_id": null,
+  "protocol": "cd0c014e5399",
+  "jobs": [
+    {
+      "id": "aa458a65277f94a41c34d185",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "0f069cbe182cde56c3f1bf97",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "emotion:enthusiasm",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "b95551bf19a5f7dcce44e645",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "emotion:anger",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "a04b7be75e8afad46cbc8995",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "basis:authority",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "d9c97547ee8c1b7c1e080f2a",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "basis:consensus",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "18083bd852b6143b81d1bb67",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "basis:identity",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "b7bb9a2f8bfd55723719e63a",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "form:hypothetical",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "23e98cfdedeb86884b02ba72",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "form:storytelling",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "b0d835c3848b6bef078a0965",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "form:reframing",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "94d3bf06eac8a209aa01a340",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "form:dichotomy",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "b6a56705352df93b37c8d459",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "response:active_listening",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "9c68936e8c981ecef8895447",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "response:socratic",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "1c063e41701253a70f397e0e",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "response:motivational",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "cb2094c0a424c7752489254b",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "response:decatastrophizing",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "052f62ea74342dd813f8490f",
+      "pair": "luna_medium_to_deepseek",
+      "mode": "persuade",
+      "condition": "ending:call_to_action",
+      "social": "base",
+      "repeat": 1,
+      "done": false,
+      "earlier_results": []
+    }
+  ]
+}
