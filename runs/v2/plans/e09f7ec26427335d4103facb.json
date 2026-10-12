@@ -1,0 +1,161 @@
+{
+  "block": "A",
+  "repeat": 0,
+  "pairs": [
+    "deepseek_same"
+  ],
+  "topic_id": null,
+  "protocol": "cd0c014e5399",
+  "jobs": [
+    {
+      "id": "fdff75c5f9b89a1a86e340a0",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "c341dba672cdd97be9ae4390",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "emotion:enthusiasm",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "72fd4257c328d407503094cc",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "emotion:anger",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "644a5edaec5a0e5d7cab1787",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "basis:authority",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "3fbcfb8bf81297e0f00d718b",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "basis:consensus",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "12029ec57b8cfa372b68b61a",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "basis:identity",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "6a371e800cac8b2831ce347f",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "form:hypothetical",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "d36974b680883a9bbfad470e",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "form:storytelling",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "d3d76dd06ca2abe0996493db",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "form:reframing",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "c68c6a508681d6bb61b2056a",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "form:dichotomy",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "e5028fc0b1fae3ade0904728",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "response:active_listening",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "ac3178089af8be1d8e21e33e",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "response:socratic",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "671f8158576eaa0b3c67931f",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "response:motivational",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "b403dcc5186bdf73d7a8fda2",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "response:decatastrophizing",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "c8a0c6b2101586285d605954",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "ending:call_to_action",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "block": "B",
+  "repeat": 0,
+  "pairs": [
+    "deepseek_same"
+  ],
+  "topic_id": null,
+  "protocol": "cd0c014e5399",
+  "jobs": [
+    {
+      "id": "fdff75c5f9b89a1a86e340a0",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "base",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "f3eb4e6de1fbb4b6d1f1538f",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "ai_disclosure:on",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "96a2a5dad7ba319a73729efc",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "goal_disclosure:on",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "7bace31ea055a87aa66ef272",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "forbidden_list:on",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "998f65a4c83156b846cfffa2",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "role:expert",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    },
+    {
+      "id": "5e98b19513d4626dab1dea1d",
+      "pair": "deepseek_same",
+      "mode": "persuade",
+      "condition": "control",
+      "social": "role:friend",
+      "repeat": 0,
+      "done": false,
+      "earlier_results": []
+    }
+  ]
+}

@@ -76,6 +76,10 @@
       "attacker": "deepseek",
       "target": "claude_a"
     },
+    "deepseek_same": {
+      "attacker": "deepseek",
+      "target": "deepseek"
+    },
     "codex_same": {
       "attacker": "codex_a",
       "target": "codex_a"
