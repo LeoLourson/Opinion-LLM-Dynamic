@@ -1,0 +1,118 @@
+{
+  "block": "pilot",
+  "repeat": 0,
+  "jobs": [
+    {
+      "id": "c147677044faf419d213f941",
+      "pair": "codex_to_deepseek",
+      "runner_version": 2,
+      "protocol": "c3f2813ed80b",
+      "mode": "persuade",
+      "attacker": {
+        "id": "codex_a",
+        "transport": "subagent",
+        "engine": "codex",
+        "model": "gpt-6-luna",
+        "settings": {
+          "reasoning_effort": "low"
+        }
+      },
+      "target": {
+        "id": "deepseek",
+        "transport": "api",
+        "engine": "deepseek",
+        "model": "deepseek-flash",
+        "settings": {}
+      },
+      "counter": {
+        "id": "deepseek",
+        "transport": "api",
+        "engine": "deepseek",
+        "model": "deepseek-flash",
+        "settings": {}
+      },
+      "condition": "control",
+      "social": "base",
+      "repeat": 100000,
+      "topic": "Высшее образование необходимо для успешной карьеры",
+      "topic_source": "poll",
+      "done": false,
+      "result_file": "C:\\Users\\LeoLeon\\Documents\\Научная работа\\ИПУ\\Динамика убеждений на субагентах\\runs\\v2\\results\\c147677044faf419d213f941.json"
+    },
+    {
+      "id": "bf7f51adc3f172f4df700605",
+      "pair": "codex_to_deepseek",
+      "runner_version": 2,
+      "protocol": "c3f2813ed80b",
+      "mode": "persuade",
+      "attacker": {
+        "id": "codex_a",
+        "transport": "subagent",
+        "engine": "codex",
+        "model": "gpt-6-luna",
+        "settings": {
+          "reasoning_effort": "low"
+        }
+      },
+      "target": {
+        "id": "deepseek",
+        "transport": "api",
+        "engine": "deepseek",
+        "model": "deepseek-flash",
+        "settings": {}
+      },
+      "counter": {
+        "id": "deepseek",
+        "transport": "api",
+        "engine": "deepseek",
+        "model": "deepseek-flash",
+        "settings": {}
+      },
+      "condition": "emotion:anger",
+      "social": "base",
+      "repeat": 100000,
+      "topic": "Высшее образование необходимо для успешной карьеры",
+      "topic_source": "poll",
+      "done": false,
+      "result_file": "C:\\Users\\LeoLeon\\Documents\\Научная работа\\ИПУ\\Динамика убеждений на субагентах\\runs\\v2\\results\\bf7f51adc3f172f4df700605.json"
+    },
+    {
+      "id": "7f63b8fd5f3b1ec89ee34e89",
+      "pair": "codex_to_deepseek",
+      "runner_version": 2,
+      "protocol": "c3f2813ed80b",
+      "mode": "persuade",
+      "attacker": {
+        "id": "codex_a",
+        "transport": "subagent",
+        "engine": "codex",
+        "model": "gpt-6-luna",
+        "settings": {
+          "reasoning_effort": "low"
+        }
+      },
+      "target": {
+        "id": "deepseek",
+        "transport": "api",
+        "engine": "deepseek",
+        "model": "deepseek-flash",
+        "settings": {}
+      },
+      "counter": {
+        "id": "deepseek",
+        "transport": "api",
+        "engine": "deepseek",
+        "model": "deepseek-flash",
+        "settings": {}
+      },
+      "condition": "response:active_listening",
+      "social": "base",
+      "repeat": 100000,
+      "topic": "Высшее образование необходимо для успешной карьеры",
+      "topic_source": "poll",
+      "done": false,
+      "result_file": "C:\\Users\\LeoLeon\\Documents\\Научная работа\\ИПУ\\Динамика убеждений на субагентах\\runs\\v2\\results\\7f63b8fd5f3b1ec89ee34e89.json"
+    }
+  ],
+  "plan_file": "C:\\Users\\LeoLeon\\Documents\\Научная работа\\ИПУ\\Динамика убеждений на субагентах\\runs\\v2\\plans\\82345eab79a24e5bf5ebc8df.json"
+}

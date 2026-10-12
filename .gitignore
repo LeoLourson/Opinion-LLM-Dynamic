@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# файл остановки запусков
+/STOP
+
+# временные файлы SQLite
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# локальные настройки Claude Code и редактора
+.claude/settings.local.json
+.vscode/

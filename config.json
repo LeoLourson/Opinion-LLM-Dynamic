@@ -1,0 +1,84 @@
+{
+  "rounds": 4,
+  "message_length": 600,
+  "api": {
+    "base_url": "https://api.deepseek.com",
+    "key_env": "DEEPSEEK_API_KEY",
+    "max_tokens": 4000,
+    "max_requests": 1000
+  },
+  "profiles": {
+    "deepseek": {
+      "transport": "api",
+      "engine": "deepseek",
+      "model": "deepseek-flash",
+      "settings": {}
+    },
+    "codex_a": {
+      "transport": "subagent",
+      "engine": "codex",
+      "model": "gpt-6-luna",
+      "settings": {
+        "reasoning_effort": "low"
+      }
+    },
+    "codex_b": {
+      "transport": "subagent",
+      "engine": "codex",
+      "model": null,
+      "settings": {}
+    },
+    "claude_a": {
+      "transport": "subagent",
+      "engine": "claude-code",
+      "model": "claude-sonnet-5-5",
+      "settings": {}
+    },
+    "claude_b": {
+      "transport": "subagent",
+      "engine": "claude-code",
+      "model": "claude-haiku-5-5",
+      "settings": {}
+    }
+  },
+  "counter_profile": "deepseek",
+  "main_pair": "codex_to_deepseek",
+  "model_pairs": {
+    "codex_to_deepseek": {
+      "attacker": "codex_a",
+      "target": "deepseek"
+    },
+    "deepseek_to_codex": {
+      "attacker": "deepseek",
+      "target": "codex_a"
+    },
+    "claude_to_deepseek": {
+      "attacker": "claude_a",
+      "target": "deepseek"
+    },
+    "haiku_to_deepseek": {
+      "attacker": "claude_b",
+      "target": "deepseek"
+    },
+    "deepseek_to_claude": {
+      "attacker": "deepseek",
+      "target": "claude_a"
+    },
+    "codex_same": {
+      "attacker": "codex_a",
+      "target": "codex_a"
+    },
+    "codex_versions": {
+      "attacker": "codex_a",
+      "target": "codex_b"
+    },
+    "claude_same": {
+      "attacker": "claude_a",
+      "target": "claude_a"
+    },
+    "claude_versions": {
+      "attacker": "claude_a",
+      "target": "claude_b"
+    }
+  }
+}
